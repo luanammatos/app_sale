@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- Data theme configurado no dark e light -->
+<html lang="pt-br" data-bs-theme=light>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="generator" content="">
+        <title>App Sale</title>
+        
+        <link rel="canonical" href="">
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="manifest" href="img/favicons/manifest.json">
+        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#ffffff">
+        <link rel="icon" href="img/favicons/favicon.ico">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class="content">
+            <div class="container">
+                <main class="signin">
+                    <h1 class="d-block h1 mb-5 text-success fw-bolder">Sale App</h1>
+                    <div class="my-3">
+                        <a class="btn btn-light w-100 shadow mb-4 py-3 rounded-3" type="submit">
+                            <img src="img/google_logo.svg" alt="Login com o Google" width="24" height="24">
+                            <span>Login com o Google</span>
+                        </a>
+                        <span class="d-block position-relative text-w-line">
+                            <hr class="position-absolute">
+                            <p class="d-inline-block position-relative bg-white px-3 font-size-18">ou</p>
+                        </span>
+                    </div>
+                    <form action="" method="" class="form-signin mt-4">
+                        <div class="form-floating mb-3">
+                            <span class="icon-input"><i class="bi bi-envelope-fill"></i></span>
+                            <input type="email" class="form-control border-3" id="email" name="id_email" placeholder="Digite sua senha">
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="form-floating">
+                            <span class="icon-input"><i class="bi bi-key-fill"></i></span>
+                            <input type="password" class="form-control border-3" id="password" name="id_password" placeholder="Digite sua senha">
+                            <!-- Classe active no button muda o ícone na visualização -->
+                            <button type="button" class="password-view"><i class="bi-eye-fill"></i></button>
+                            <label for="password">Senha</label>
+                        </div>
+                        <a href="#" class="d-block my-3 text-end text-success">Esqueceu sua senha?</a>
+                        <button class="btn btn-lg btn-success w-100 py-3 fw-bold" type="submit">Entrar</button>
+                    </form>
+                </main>
+                <div class="text-center mt-3">
+                    <p>Todos os direitos reservados.</p>
+                    <p>Version: 5.0.1</p>
+                </div>
+            </div>
+            <!-- Segunda tela, classe mt-5 utilizada apenas para separação -->
+            <div class="container mt-5">
+                <main class="signin">
+                    <h1 class="d-block h1 mb-5 text-success fw-bolder">Sale App</h1>
+                    <div class="my-5">
+                        <p>Insira o código de 6 dígitos que enviamos para o email</p>
+                        <p class="user-email fw-bold text-success">diego@etrio.com.br</p>
+                    </div>
+                    <form action="" method="" class="form-code mt-5">
+                        <div class="security-code d-flex">
+                            <div class="mx-2">
+                              <input maxlength="1" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" type="tel" id="char0" class="form-control border-3" aria-label="Introduza o código de confirmação. Ao introduzir o código nos campos de entrada, o foco será movido automaticamente para os próximos campos de entrada. Após introduzir o código de confirmação, a página será atualizada automaticamente. Dígito 1" placeholder="" data-index="0">
+                            </div>
+                            <div class="mx-2">
+                              <input maxlength="1" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" type="tel" id="char1" class="form-control border-3" aria-label="Dígito 2" placeholder="" data-index="1">
+                            </div>
+                            <div class="mx-2">
+                              <input maxlength="1" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" type="tel" id="char2" class="form-control border-3" aria-label="Dígito 3" placeholder="" data-index="2">
+                            </div>
+                            <div class="mx-2">
+                              <input maxlength="1" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" type="tel" id="char3" class="form-control border-3" aria-label="Dígito 4" placeholder="" data-index="3">
+                            </div>
+                            <div class="mx-2">
+                              <input maxlength="1" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" type="tel" id="char4" class="form-control border-3" aria-label="Dígito 5" placeholder="" data-index="4">
+                            </div>
+                            <div class="mx-2">
+                              <input maxlength="1" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" type="tel" id="char5" class="form-control border-3" aria-label="Dígito 6" placeholder="" data-index="5">
+                            </div>
+                          </div>
+                        <a href="#" class="d-block my-5 text-success">Não recebeu o código? Clique aqui para reenviar</a>
+                        <button class="btn btn-lg btn-success w-100 py-3 fw-bold" type="submit">Entrar</button>
+                    </form>
+                </main>
+                <div class="text-center mt-3">
+                    <p>Todos os direitos reservados.</p>
+                    <p>Version: 5.0.1</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
